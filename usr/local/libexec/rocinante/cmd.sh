@@ -49,7 +49,7 @@ fi
 ## execute CMD
 sh -c "$@"
 ERROR_CODE="$?"
-info "${ERROR_CODE}"
+warn "${ERROR_CODE}"
 
 echo -e "${COLOR_RESET}"
 return "${ERROR_CODE}"

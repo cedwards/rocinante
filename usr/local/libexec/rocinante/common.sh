@@ -58,7 +58,7 @@ error_exit() {
 }
 
 info() {
-    echo -e "${COLOR_GREEN}$*${COLOR_RESET}"
+    echo "${COLOR_GREEN}$*${COLOR_RESET}"
 }
 
 warn() {

@@ -12,12 +12,12 @@ install:
 .PHONY: uninstall
 uninstall:
 	@echo "Removing Rocinante command"
-	@rm -vf /usr/local/bin/rocinante
+	@rm -vf /usr/bin/rocinante
 	@echo
 	@echo "Removing Bastille sub-commands"
-	@rm -rvf /usr/local/libexec/rocinante
+	@rm -rvf /usr/libexec/rocinante
 	@echo
 	@echo "removing configuration file"
-	@rm -rvf /usr/local/etc/rocinante.conf.sample
+	@rm -rvf /etc/rocinante.conf.sample
 	@echo
 	@echo "You may need to manually remove /usr/local/etc/rocinante.conf if it is no longer needed."
